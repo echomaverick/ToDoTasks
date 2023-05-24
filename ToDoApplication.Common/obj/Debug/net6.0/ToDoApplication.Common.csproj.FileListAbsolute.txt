@@ -1,0 +1,14 @@
+C:\Users\shefi\source\repos\ToDoApplication.Common\bin\Debug\net6.0\ToDoApplication.Common.deps.json
+C:\Users\shefi\source\repos\ToDoApplication.Common\bin\Debug\net6.0\ToDoApplication.Common.runtimeconfig.json
+C:\Users\shefi\source\repos\ToDoApplication.Common\bin\Debug\net6.0\ToDoApplication.Common.dll
+C:\Users\shefi\source\repos\ToDoApplication.Common\bin\Debug\net6.0\ToDoApplication.Common.pdb
+C:\Users\shefi\source\repos\ToDoApplication.Common\obj\Debug\net6.0\ToDoApplication.Common.csproj.AssemblyReference.cache
+C:\Users\shefi\source\repos\ToDoApplication.Common\obj\Debug\net6.0\ToDoApplication.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shefi\source\repos\ToDoApplication.Common\obj\Debug\net6.0\ToDoApplication.Common.AssemblyInfoInputs.cache
+C:\Users\shefi\source\repos\ToDoApplication.Common\obj\Debug\net6.0\ToDoApplication.Common.AssemblyInfo.cs
+C:\Users\shefi\source\repos\ToDoApplication.Common\obj\Debug\net6.0\ToDoApplication.Common.csproj.CoreCompileInputs.cache
+C:\Users\shefi\source\repos\ToDoApplication.Common\obj\Debug\net6.0\ToDoApplication.Common.dll
+C:\Users\shefi\source\repos\ToDoApplication.Common\obj\Debug\net6.0\refint\ToDoApplication.Common.dll
+C:\Users\shefi\source\repos\ToDoApplication.Common\obj\Debug\net6.0\ToDoApplication.Common.pdb
+C:\Users\shefi\source\repos\ToDoApplication.Common\obj\Debug\net6.0\ToDoApplication.Common.genruntimeconfig.cache
+C:\Users\shefi\source\repos\ToDoApplication.Common\obj\Debug\net6.0\ref\ToDoApplication.Common.dll

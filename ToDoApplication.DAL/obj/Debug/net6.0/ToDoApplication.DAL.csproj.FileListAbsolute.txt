@@ -1,0 +1,17 @@
+C:\Users\shefi\source\repos\ToDoApplication.DAL\bin\Debug\net6.0\ToDoApplication.DAL.deps.json
+C:\Users\shefi\source\repos\ToDoApplication.DAL\bin\Debug\net6.0\ToDoApplication.DAL.runtimeconfig.json
+C:\Users\shefi\source\repos\ToDoApplication.DAL\bin\Debug\net6.0\ToDoApplication.DAL.dll
+C:\Users\shefi\source\repos\ToDoApplication.DAL\bin\Debug\net6.0\ToDoApplication.DAL.pdb
+C:\Users\shefi\source\repos\ToDoApplication.DAL\bin\Debug\net6.0\ToDoApplication.Common.dll
+C:\Users\shefi\source\repos\ToDoApplication.DAL\bin\Debug\net6.0\ToDoApplication.Common.pdb
+C:\Users\shefi\source\repos\ToDoApplication.DAL\obj\Debug\net6.0\ToDoApplication.DAL.csproj.AssemblyReference.cache
+C:\Users\shefi\source\repos\ToDoApplication.DAL\obj\Debug\net6.0\ToDoApplication.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shefi\source\repos\ToDoApplication.DAL\obj\Debug\net6.0\ToDoApplication.DAL.AssemblyInfoInputs.cache
+C:\Users\shefi\source\repos\ToDoApplication.DAL\obj\Debug\net6.0\ToDoApplication.DAL.AssemblyInfo.cs
+C:\Users\shefi\source\repos\ToDoApplication.DAL\obj\Debug\net6.0\ToDoApplication.DAL.csproj.CoreCompileInputs.cache
+C:\Users\shefi\source\repos\ToDoApplication.DAL\obj\Debug\net6.0\ToDoApplication.DAL.csproj.CopyComplete
+C:\Users\shefi\source\repos\ToDoApplication.DAL\obj\Debug\net6.0\ToDoApplication.DAL.dll
+C:\Users\shefi\source\repos\ToDoApplication.DAL\obj\Debug\net6.0\refint\ToDoApplication.DAL.dll
+C:\Users\shefi\source\repos\ToDoApplication.DAL\obj\Debug\net6.0\ToDoApplication.DAL.pdb
+C:\Users\shefi\source\repos\ToDoApplication.DAL\obj\Debug\net6.0\ToDoApplication.DAL.genruntimeconfig.cache
+C:\Users\shefi\source\repos\ToDoApplication.DAL\obj\Debug\net6.0\ref\ToDoApplication.DAL.dll
