@@ -1,0 +1,64 @@
+﻿@model IEnumerable<ToDoApplication.BLL.DTO.ToDoTasks>
+
+@{
+    ViewData["Title"] = "ListAdminTasks";
+}
+
+<h1>Te gjitha tasket</h1>
+
+<p>
+    <a asp-action="Create">Krijo nje task te ri</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AdminId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsCompleted)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserComment)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AdminId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsCompleted)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserComment)
+                </td>
+                <td>
+                    @Html.ActionLink("Perditesoje", "Edit", new {  id=item.Id })
+                    <span>~</span>
+                    @Html.ActionLink("Detajet", "Details", new { id=item.Id })
+                    <span>~</span>
+                    @Html.ActionLink("Fshije", "Delete", new { id=item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

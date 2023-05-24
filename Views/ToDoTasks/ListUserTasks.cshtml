@@ -1,0 +1,53 @@
+﻿@model IEnumerable<ToDoApplication.BLL.DTO.ToDoTasks>
+
+@{
+    ViewData["Title"] = "ListUserTasks";
+}
+
+<h1>Te gjitha tasket</h1>
+
+<p>
+    <a asp-action="Create">Krijo nje task te ri</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>   
+            <th>
+                @Html.DisplayNameFor(model => model.IsCompleted)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserComment)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+               
+                <td>
+                    @Html.DisplayFor(modelItem => item.IsCompleted)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserComment)
+                </td>
+                <td>
+                    @Html.ActionLink("Perfunduar", "MarkAsDone", new { id = item.Id })
+                    <span>~</span>
+                    @Html.ActionLink("Vendos nje koment", "AddUserComment", new { id = item.Id })
+                    <span>~</span>
+                    @Html.ActionLink("Fshi", "Delete", new { id = item.Id })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

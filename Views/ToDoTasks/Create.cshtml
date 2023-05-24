@@ -1,0 +1,51 @@
+﻿@using ToDoApplication.BLL.DTO;
+@model ToDoApplication.BLL.DTO.ToDoTasks
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Krijo taskun</h1>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="AdminId" class="control-label" hidden></label>
+                <select asp-for="AdminId" class="form-control" hidden>
+                    @foreach (Admin admin in ViewBag.Admins)
+                    {
+                        <option value="@admin.Id">@admin.Username</option>
+                    }
+                </select>
+                <span asp-validation-for="AdminId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UserId" class="control-label" hidden></label>
+                <select asp-for="UserId" class="form-control" hidden>
+                    @foreach (User user in ViewBag.Users)
+                    {
+                        <option value="@user.Id">@user.Username</option>
+                    }
+                </select>
+                <span asp-validation-for="UserId" class="text-danger" hidden></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Title" class="control-label"></label>
+                <input asp-for="Title" class="form-control" />
+                <span asp-validation-for="Title" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
